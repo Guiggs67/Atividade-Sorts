@@ -128,12 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Estoque.cpp" />
+    <ClCompile Include="Eventos.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Pagamentos.cpp" />
+    <ClCompile Include="Pontuacao.cpp" />
+    <ClCompile Include="Tarefas.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Estoque.h" />
+    <ClInclude Include="Eventos.h" />
     <ClInclude Include="Pagamentos.h" />
+    <ClInclude Include="Pontuacao.h" />
+    <ClInclude Include="Tarefas.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
